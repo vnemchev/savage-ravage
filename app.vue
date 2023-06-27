@@ -1,15 +1,17 @@
+<script >
+import Navbar from '~/layouts/nav.vue';
+</script>
+
 <template>
     <div>
 
-        <NuxtLayout :name="nav">
 
-        </NuxtLayout>
+        <Navbar />
+
+        <NuxtPage />
+
+
 
 
     </div>
 </template>
-
-<script setup>
-// layouts/custom.vue
-const nav = 'nav'
-</script>

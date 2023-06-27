@@ -1,17 +1,25 @@
+<script>
+export default {}
+</script>
+
 <template>
-    <nav>
-        <NuxtLink to="/">home</NuxtLink>
-        <NuxtLink to="/about">about</NuxtLink>
-        <NuxtLink to="/abosut">lyrics</NuxtLink>
-        <NuxtLink to="/about">shop</NuxtLink>
+    <div>
+        <nav>
+            <NuxtLink to="/">home</NuxtLink>
+            <NuxtLink to="/about">about</NuxtLink>
+            <NuxtLink to="/abosut">lyrics</NuxtLink>
+            <NuxtLink to="/about">shop</NuxtLink>
 
 
-        <iframe src="https://open.spotify.com/embed/album/08rh65uhEk1ub59qLVLCrs?utm_source=generator" frameBorder="0"
-            height="80px" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy"></iframe>
+            <iframe src="https://open.spotify.com/embed/album/08rh65uhEk1ub59qLVLCrs?utm_source=generator" frameBorder="0"
+                height="80px" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
 
-    </nav>
+        </nav>
+    </div>
 </template>
+
+
 
 <style>
 nav {
@@ -22,7 +30,6 @@ nav {
     align-items: center;
 }
 
-div.container {}
 
 iframe {
     border-radius: 12px;
